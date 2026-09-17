@@ -10,7 +10,7 @@ DHT dht(DHTPIN, DHTTYPE);
 LiquidCrystal_I2C lcd(/*addr=*/0x27, /*cols=*/16, /*rows=*/2);
 
 void setup() {
-  Serial.begin(9600);
+  Serial.begin(115200);
   
   dht.begin();
   
